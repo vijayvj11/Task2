@@ -1,0 +1,36 @@
+body{
+    background-color: azure;
+    font-size: 15px;
+    margin: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    margin: 10% auto;
+    width: 30vh;
+    max-width: 600px;
+    background-color: beige;
+    padding: 30px;
+    border-radius: 15px;
+    height: 55vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+}
+.submit{
+    color: whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: blue;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: green;
+}
+.Counter{
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+}
